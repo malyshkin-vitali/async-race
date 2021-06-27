@@ -1,0 +1,136 @@
+.car {
+    width: 100px;
+    position: relative;
+    top: 85px;
+    left: 200px;
+
+
+    animation-name: race;
+    animation-duration: 4s;
+}
+
+
+.AddCarButton {
+    width: 200px;
+    height: 50px;
+    color: black;
+}
+
+.invalid {
+    border: red solid 2px;
+}
+
+
+.deleteCarButton {
+    width: 100px;
+    height: 50px;
+}
+
+
+.car__wrapper {
+    position: relative;
+    border-bottom: black solid 2px;
+}
+
+
+
+
+
+.car__wrapper_road {
+
+}
+
+.name {
+    position: absolute;
+    top: 50px;
+}
+
+.raceButton {
+    background-color: greenyellow;
+    position: absolute;
+    top: 70px;
+}
+
+.raceAllCars {
+    background-color: greenyellow;
+    margin-right: 20px;
+}
+
+.raceAllCars:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+
+}
+
+.raceButton:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+
+
+
+.raceButtonLock, .stopButtonLock {
+    cursor: default;
+    background-color: gray;
+}
+
+.raceButtonLock:hover, .stopButtonLock {
+    cursor: default;
+    background-color: gray;
+}
+
+
+.stopButtonLock {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+button {
+    border: 0;
+}
+
+.resetAllCarsButton {
+    background-color: gray;
+}
+
+
+.resetAllCarsButtonActivate {
+    background-color: indianred;
+}
+
+.resetAllCarsButtonActivate:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.stopButton {
+    background-color: indianred;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.selectButton {
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
+.selectButton:hover {
+    cursor: pointer;
+}
+
+
+.stopButton:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+input {
+    margin-right: 50px;
+}
+
+.countCars {
+    margin-right: 20px;
+}
